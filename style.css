@@ -22,28 +22,14 @@ align-items: flex-end;
 
 
 
-.boutonjedecouvre {
-
-    background-color: #E16F52;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        border: none;
-        color: black;
-        padding: 20px 34px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 34px;
-        margin: 4px 2px;
-        cursor: pointer;
-}
-
-
 
 .logo {
 position: absolute;
-width: 672px;
-height: 310px;
-top: 10%;
+width: 550px;
+height: auto;
+top: 5%;
+left: auto; 
+right: auto;
  
 }
 
@@ -134,3 +120,50 @@ input {
   vertical-align: baseline;
 
 }
+
+
+.section1 {
+
+  height: 594px;
+}
+
+.perceusegauche {
+
+  display: flex;
+  order: 1;
+justify-content: flex-start;
+height: 600px;
+width: auto;
+
+}
+
+.description-section1 {
+display: flex;
+order: 2;
+justify-content: flex-start;
+align-items: center;
+margin-right: 100px;
+font-variant-caps: small-caps;
+font-size: 32px;
+font-weight: bold;
+
+}
+
+.boutonjedecouvre {
+
+  background-color: #E16F52;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-variant-caps: small-caps;
+  padding: 20px;
+     border: none;
+      color: #331812;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 34px;
+      cursor: pointer;
+      border-radius: 70px;
+      width: 300px;
+      height: 20px;
+}
+
