@@ -125,12 +125,13 @@ input {
 .section1 {
 
   height: 594px;
+  display: flex;
+  flex-direction: row;
 }
 
 .perceusegauche {
 
-  display: flex;
-  order: 1;
+order: 1;
 justify-content: flex-start;
 height: 600px;
 width: auto;
@@ -138,23 +139,21 @@ width: auto;
 }
 
 .description-section1 {
-display: flex;
+
 order: 2;
-justify-content: flex-start;
-align-items: center;
-margin-right: 100px;
 font-variant-caps: small-caps;
 font-size: 32px;
 font-weight: bold;
 
 }
 
-.boutonjedecouvre {
+.button {
 
   background-color: #E16F52;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-variant-caps: small-caps;
-  padding: 20px;
+  padding: 4px 18px;
+  padding-bottom: 10px;
      border: none;
       color: #331812;
       text-align: center;
@@ -163,7 +162,24 @@ font-weight: bold;
       font-size: 34px;
       cursor: pointer;
       border-radius: 70px;
-      width: 300px;
-      height: 20px;
+      margin-left: 250px;
+     
+    
 }
 
+#texteperformance {
+margin-left: 150px;
+  text-align: center;
+}
+
+#texteheader1 {
+  margin-left: 150px;
+  text-align: center;
+
+}
+
+#texteheader2 {
+  margin-left: 150px;
+  text-align: center;
+
+}
