@@ -1,0 +1,102 @@
+html {
+/*height: 100%;*/
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+margin: 0;
+padding: 0;
+}
+
+.container_gallery {
+    display: flex;
+    justify-content: center;
+
+}
+
+.thumbnails {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.thumbnails li {
+    flex: auto;
+}
+
+.container_gallery .thumbnails a {
+    display: block;
+    list-style-type: none;
+}
+
+.thumbnails img {
+
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.slides {
+
+    overflow: hidden;
+    width: 720px;
+    height: 220px;
+}
+
+.slides li {
+    width: 500px;
+    height: 220px;
+    position: absolute;
+    z-index: 1;
+    list-style: none;
+
+
+}
+
+.slides img {
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+.slides li:target {
+    z-index: 3;
+    animation: slide 1s 1;
+}
+
+.slides li:not(:target) {
+animation: hidden 1s 1;
+
+}
+
+@keyframe slide {
+    0% {
+
+        transform: translateY(-100%);
+    }
+
+    100% {
+
+        transform: translateY(0%);
+    }
+
+}
+
+
+@keyframe hidden {
+    0% {
+
+        z-index: 2;
+    }
+
+    100% {
+
+        z-index: 2;
+    }
+
+}

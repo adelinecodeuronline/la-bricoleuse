@@ -3,82 +3,116 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Des outils légers et performants que la bricoleuse bricole">
   <title>La Bricoleuse | performance et légéreté</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="vertical-slider.css">
 </head>
 
 <body>
+<!--bandeau de recherche-->
 
-    <header>
-      <div class="recherche">
-
-        <form>
-          <input type="text" id="search" placeholder="Rechercher">
-        </form>
-
-
-        <i class="personne"></i>
-        <i class="sac"></i>
-
-      </div>
-
-      <nav>
-        <img class="logo" src="./image/logo/labricoleuselogo.svg" alt="logo la bricoleuse">
-
-        <ul>
-          <li><a href="#accueil">accueil</a></li>
-          <li><a href="#produits">produits</a></li>
-          <li><a href="#lamarque">la marque</a></li>
-          <li><a href="#promos">promos</a></li>
-          <li><a href="#ideesdeco">idées déco</a></li>
-          <li><a href="#tutoriels">tutoriels</a></li>
-        </ul>
-      </nav>
-
-  </header>
-
-  <div class="section1">
-
-    <img class="perceusegauche" src="./image/image perceuses/perceusesection1.svg" alt="photo de perceuse performante">
+<nav>
+  <div class="container_nav">
     
-    <div class="description-section1">
-    <p id="texteperformance">Perfomance et legerete</p>
-    <p id="texteheader1">perceuse-visseuse</p>
-    <p id="texteheader2">sans-fil bosch psb 18 li-2</p>
-    <input type="button" class="button" value="je decouvre">
+    <form>
+      <input type="text" id="search" placeholder="Rechercher">
+    </form>
+
+    <img class="personne" src="./icones/user.svg">
+    <img class="sac" src="./icones/icone_panier.svg">
+
+  </div>
+</nav>
+
+<!--header-->
+
+<header>
+  <img src="./image/logo/labricoleuselogo.svg" alt="logo la bricoleuse">
+
+  <ul>
+    <li><a href="#accueil">accueil</a></li>
+    <li><a href="#produits">produits</a></li>
+    <li><a href="#lamarque">la marque</a></li>
+    <li><a href="#promos">promos</a></li>
+    <li><a href="#ideesdeco">idées déco</a></li>
+    <li><a href="#tutoriels">tutoriels</a></li>
+  </ul>
+
+</header>
+
+<!--contenu global-->
+
+<main class="container_main">
+
+  <!--les différentes sections-->
+
+  <section><!--première section-->
+    <img id="perceusegauche" src="./image/image perceuses/perceusesection1.svg" alt="photo de perceuse performante"> 
+    <div id="contenu_section1">
+    <h2>performance et légéreté</h2>
+    <h3>perceuse-visseuse</h3>
+    <h4>sans-fil bosch psb 18 li-2</h4>
+
+    <a class="btn" href="#">je découvre</a> 
+    
+    <img src="./icones/leger.svg">
+    <img src="./icones/compacte.svg">
+    <img src="./icones/puissante.svg">
+    <img src="./icones/maniable.svg">
+
+    <p>léger</p>
+    <p>compacte</p>
+    <p>puissante</p>
+    <p>maniable</p>
     </div>
+  </section>
 
-  </div>
+  <!--bandeau gris-->
 
-  <div class="grey">
+  <div class="grey"></div>
 
-  </div>
+  <section id="gallery"><!--deuxième section-->
 
-  <div class="section2">
+  <!--vertical gallery-->
+
+<div class="container_gallery">
+  <ul class="slides">
+    <li id="slide1"><img src="./image/image perceuses/image_gche_section2.svg"></li>
+    <li id="slide2"><img src="./image/image perceuses/miniature1.jpg"></li>
+    <li id="slide3"><img src="./image/image perceuses/miniature2.jpg"></li>
+    <li id="slide4"><img src="./image/image perceuses/miniature3.jpg"></li>
+    <li id="slide5"><img src="./image/image perceuses/miniature4.jpg"></li>
+  </ul>
+
+  <ul class="thumbnails">
     
-    <img class="perceusedetail">
+    <li><a href="#slide1"><img src="./image/image perceuses/image_gche_section2.svg"></a></li>
+    <li><a href="#slide2"><img src="./image/image perceuses/miniature1.jpg"></a></li>
+    <li><a href="#slide3"><img src="./image/image perceuses/miniature2.jpg"></a></li>
+    <li><a href="#slide4"><img src="./image/image perceuses/miniature3.jpg"></a></li>
+    <li><a href="#slide5"><img src="./image/image perceuses/miniature4.jpg"></a></li>
+    
 
-  </div>
 
- 
-    ici carroussel images
+</div>
+    
+  </section>
+
+<!--bandeau gris-->
+
+<div class="grey"></div>
+
+<section><!--troisième section-->
   
+</section>
 
-  <div class="grey">
 
-  </div>
+</main>
 
-  <footer>
-    <div class="livraison">
-
-    </div>
-
-  </footer>
-
-  </div>
-
+   
 </body>
 
 
