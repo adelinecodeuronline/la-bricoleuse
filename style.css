@@ -208,9 +208,31 @@ div #icones_gche {
   display: flex;
   align-items: center;
   justify-content: space-around;
-
+  height: 527px;
+  background-color: white;
+  box-shadow: 0px 1px 3px rgb(180, 180, 180);
 }
 
+
+#livraison p {
+  text-align: center;
+  white-space: pre-wrap;
+  margin-top: 20px;
+ 
+}
+
+#livraison img {
+  text-align: center;
+   margin: auto;
+   margin-bottom: 20px;
+}
+
+#livraison #avis {
+
+  width: 80%;
+  height: auto;
+  margin-bottom: 100px;
+}
 
 
 
@@ -221,24 +243,32 @@ footer {
   display: flex;
   align-items: left;
   background-color: var(--grey);
-  height: 350px;
-
+  height: 250px;
+ 
+  
 }
 
 footer li {
   list-style-type: none;
   font-size: 12px;
-
+  line-height: 10px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .vl {
 
-  border-left: 2px solid rgb(77, 77, 77);
-  height: 200px;
+  border-left: 1px solid rgb(168, 168, 168);
+  height: 120px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 
 footer img {
 text-align: center;
+width: 70%;
+height: auto;
 
 }
