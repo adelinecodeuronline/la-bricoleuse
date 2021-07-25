@@ -30,7 +30,7 @@
 <!--header-->
 
 <header>
-  <img src="./image/logo/labricoleuselogo.svg" alt="logo la bricoleuse">
+  <div class="centrage_image"><img src="./image/logo/labricoleuselogo.svg" alt="logo la bricoleuse"></div>
 
   <ul>
     <li><a href="#accueil">accueil</a></li>
@@ -49,25 +49,40 @@
 
   <!--les différentes sections-->
 
-  <section><!--première section-->
+  <section id="section1"><!--première section-->
     <img id="perceusegauche" src="./image/image perceuses/perceusesection1.svg" alt="photo de perceuse performante"> 
-    <div id="contenu_section1">
+
+
+    <div id="section1_gche">
+    <div>
     <h2>performance et légéreté</h2>
     <h3>perceuse-visseuse</h3>
     <h4>sans-fil bosch psb 18 li-2</h4>
+   </div> 
 
-    <a class="btn" href="#">je découvre</a> 
+    <div><a class="btn" href="#">je découvre</a></div> 
     
-    <img src="./icones/leger.svg">
-    <img src="./icones/compacte.svg">
-    <img src="./icones/puissante.svg">
-    <img src="./icones/maniable.svg">
-
-    <p>léger</p>
-    <p>compacte</p>
-    <p>puissante</p>
-    <p>maniable</p>
+    <div>
+      <ul id="icones_gche">
+        <li><img src="./icones/leger.svg"></li>
+         <li><img src="./icones/compacte.svg"></li>
+        <li><img src="./icones/puissante.svg"></li>
+         <li><img src="./icones/maniable.svg"></li>
+      </ul>
     </div>
+
+  <div>
+    <ul id="baselines_gche">
+    <li><p>léger</p></li>
+    <li><p>compacte</p></li>
+    <li><p>puissante</p></li>
+    <li><p>maniable</p></li>
+  </ul>
+  </div>
+
+    </div>
+
+    
   </section>
 
   <!--bandeau gris-->
@@ -105,12 +120,77 @@
 
 <div class="grey"></div>
 
-<section><!--troisième section-->
+
+
+<section id="livraison"><!--troisième section-->
+
+  <div>
+  <img src="./icones/camion.svg">
+  <p>Livraison à Domicile &
+    en Point Relais
+  </p>
+</div>
+
+<div>
+  <img src="./icones/avis_verifies.svg">
+</div>
+
+<div>
+  <img src="./icones/telephone.svg">
+  <p>Service Client 7j/7 de 8h à 20h
+    0800 41 42 43
+  </p>
+</div>
   
 </section>
 
 
 </main>
+
+<!--pied de page-->
+
+<footer>
+
+  <div>
+    <ul>
+      <li><p>SERVICES</p></li>
+       <li><p>Livraison et Retour</p></li>
+       <li><p>Conditions générales de vente</p></li>
+       <li><p>Politique de données personnelles</p></li>
+       <li><p>Mentions légales</p></li>
+       <li><p>Plan du site</p></li>
+    </ul>
+  </div>
+
+  <div class="vl"></div>
+
+
+  <div>
+    <ul>
+      <li><p>CONTACTS</p></li>
+       <li><p>Gérer votre compte</p></li>
+       <li><p>Relations Presse</p></li>
+       <li><p>Recrutement</p></li>
+       <li><p>FAQ</p></li>
+     </ul>
+  </div>
+
+  <div class="vl"></div>
+
+
+  <div>
+    <ul>
+      <li><p>LA BRICOLEUSE</p></li>
+       <li><p>Qui sommes-nous ?</p></li>
+       <li><p>Cartes Cadeaux</p></li>
+       <li><p>Contactez-nous</p></li>
+     </ul>
+  </div>
+
+  <div><img src="./icones/reseaux.svg"></div>
+
+
+</footer>
 
    
 </body>
