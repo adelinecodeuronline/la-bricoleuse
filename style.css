@@ -197,9 +197,20 @@ div #icones_gche {
 
   display: inline-block;
   list-style-type: none;
-  margin: 20px 10px;
+  transform: translateY(150px);
+  padding-right: 100px;
+  font-size: 22px;
+  color:rgb(79, 79, 79)
   
 }
+
+#baselines_gche {
+
+  margin-left: 105px;
+}
+
+
+
 
 
 /*bandeaux gris*/
@@ -238,11 +249,15 @@ div #icones_gche {
  
 }
 
+
 #livraison img {
   text-align: center;
    margin: auto;
    margin-bottom: 20px;
 }
+
+
+
 
 #livraison #avis {
 
@@ -262,16 +277,18 @@ footer {
   background-color: var(--grey);
   height: 250px;
  
+ 
   
 }
 
 footer li {
   list-style-type: none;
   font-size: 12px;
-  line-height: 10px;
-  margin-left: 30px;
+  line-height: 5px;
+  margin-left: 10px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 28px;
+  width: 250px;
 }
 
 .vl {
@@ -279,17 +296,23 @@ footer li {
   border-left: 1px solid rgb(168, 168, 168);
   height: 120px;
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 150px;
 }
 
 
 footer img {
 
-width: 70%;
+width: 150%;
 height: auto;
 margin-top: 30px;
-margin-left: 120px;
+margin-left: 100px;
 margin-right: -250px;
 
+
+}
+
+footer div {
+width: 150px;
+margin-left: 60px;
 
 }
