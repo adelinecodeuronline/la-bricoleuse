@@ -112,9 +112,10 @@ header li {
 }
 
 #perceusegauche {
-width: 600px;
+width: 500px;
 height: auto;
 margin-top: 50px;
+margin-left: 130px;
 
 }
 
@@ -225,8 +226,26 @@ div #icones_gche {
 
 #gallery {
 
-  height: 600px;
+  height: 1000px;
 }
+
+
+
+.btn2 {
+
+  color: var(--white);
+  text-transform: var(--caps);
+  text-decoration: none;
+  font-weight: 600;
+  background-color:  #E16F52;
+  padding: 10px 45px;
+  border-radius: 70px;
+  box-shadow: 6px 5px 5px rgb(202, 202, 202);
+  transform: translateY(150px);
+  margin: auto;
+  
+  }
+
 
 
 
@@ -246,6 +265,7 @@ div #icones_gche {
   text-align: center;
   white-space: pre-wrap;
   margin-top: 20px;
+  font-size: 22px;
  
 }
 
@@ -254,6 +274,12 @@ div #icones_gche {
   text-align: center;
    margin: auto;
    margin-bottom: 20px;
+}
+
+
+#tel {
+
+  transform: translateX(50px);
 }
 
 
