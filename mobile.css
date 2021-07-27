@@ -1,0 +1,124 @@
+/*Version Mobile*/
+
+@media (max-width : 870px) {
+
+/*variables*/
+:root {
+    --caps: uppercase;
+    --grey:  #EFEFEF;
+    --brown: color: #301919;
+    }
+    
+    
+    
+    body {
+    
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 14 px;
+      margin: 0;
+    }
+
+
+    /*nav*/
+         
+      #search {    /*barre de recherche*/
+  
+        display: none;
+      
+      }
+
+
+      nav .container_nav {
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+       transform: translateY(10px);
+        
+        }
+   
+
+    .burger {
+
+    display: block;
+    height: 40%;
+    width: auto;
+    
+   }
+
+   .personne {
+    height:50%;
+    width: auto;
+    margin-right: 50px;
+    padding-left: 150px;
+   }
+
+   .sac {
+
+    display: none;    
+   }
+
+
+    /*header*/
+
+   header {
+    height: 200px;
+    width: 400px;
+   }
+
+
+   header ul {
+
+    display: none;
+   }
+
+   header img {
+    width: auto;
+    height: 100px;
+    margin-top: -20px;
+   }
+
+    /*section 1*/
+
+
+   #section1_gche h2 {
+
+    transform: translateY(150px);
+    font-size: 45px;
+    font-weight: 400;
+  }
+
+
+  #section1_gche h3 {
+    
+    font-size:40px;
+    transform: translateY(150px);
+  }
+
+
+  #section1_gche h4 {
+    transform: translateY(180px);
+    font-size: 40px;
+  }
+
+
+  #section1_gche {
+    
+   
+       
+    }
+
+
+   
+  
+  
+
+
+
+
+
+
+
+
+
+
+  }
