@@ -226,7 +226,10 @@ div #icones_gche {
 
 #gallery {
 
-  height: 1000px;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+ 
 }
 
 
@@ -241,12 +244,22 @@ div #icones_gche {
   padding: 10px 45px;
   border-radius: 70px;
   box-shadow: 6px 5px 5px rgb(202, 202, 202);
-  transform: translateY(150px);
-  margin: auto;
+ 
   
   }
 
+#bouton2 {
 
+  transform: translateY(-50px);
+  
+}
+
+
+#avis {
+
+  margin-left: 90px;
+  transform: translateY(16px);
+}
 
 
 /*troisième section livraison*/
