@@ -315,6 +315,19 @@ div #icones_gche {
 
 /*footer*/
 
+
+#fixed {
+
+  display: none;
+}
+
+
+#fixed img {
+
+  display: none;
+}
+
+
 footer {
   display: flex;
   align-items: left;

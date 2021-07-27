@@ -82,7 +82,11 @@
 
     /*section 1*/
 
-    
+   #section1 {
+
+    height: 680px;
+
+   }
     
     #perceusegauche {
         width: 300px;
@@ -214,8 +218,27 @@
               
                 margin-left: 268px;
               }
+
+
+
+              /*footer-menu fixe*/
             
-   
+   #fixed {
+
+    display: block;
+    height: 72px;
+    background-color: var(--grey);
+    position: fixed;
+    top: 780px;
+    
+        
+   }
+
+   #fixed img {
+
+    display: inline-block;
+    margin: auto;
+   }
 
 
    
