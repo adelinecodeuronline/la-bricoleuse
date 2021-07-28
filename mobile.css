@@ -319,7 +319,7 @@
 
   #livraison {
     display: flex;
-    height: 400px;
+    height: 500px;
     transform: translateY(300px);
   }
   
@@ -392,13 +392,14 @@ display: none;
 footer {
   
   background-color: var(--grey);
-  height: 100px;
+  height: 250px;
  
  
   
 }
 
 footer li {
+    
   list-style-type: none;
   font-size: 10px;
   transform: translateY(20px);
@@ -411,13 +412,16 @@ footer img {
 
   width: 60%;
   height: auto;
-  transform: translateY(-100px);
+  transform: translateY(-150px);
+  transform: translateX(50px);
 
-  
-  
-  
   }
 
+  
+footer ul {
+  padding-left: 10px;
+  gap: 20px;
+}
 
 
 
