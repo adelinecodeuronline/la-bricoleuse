@@ -269,12 +269,17 @@ div #icones_gche {
 
 /*troisième section livraison*/
 
+#bandeau_mobile {
+
+  display: none;
+}
+
+
 #livraison {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 527px;
-  background-color: white;
   /*box-shadow: 0px 1px 3px rgb(180, 180, 180);*/
 }
 
@@ -316,7 +321,7 @@ div #icones_gche {
 /*footer*/
 
 
-#fixed {
+#fixed { /*menu sur smartphone*/
 
   display: none;
 }

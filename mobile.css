@@ -225,7 +225,7 @@
 
 
 
-              /*footer-menu fixe*/
+  /*footer-menu fixe*/
             
    #fixed {
 
@@ -306,6 +306,117 @@
 
 
 
+
+  /*troisième section livraison*/
+
+  #bandeau_mobile {
+
+    background-color: var(--grey);
+    height: 10px;
+    transform: translateY(210px);
+  }
+
+
+  #livraison {
+    display: flex;
+    height: 400px;
+    transform: translateY(300px);
+  }
+  
+  
+  #livraison #livraison_camion {
+    text-align: left;
+   white-space: normal;
+    margin-top: 20px;
+    font-size: 14px;
+    transform: translateX(30px);
+    
+   
+  }
+
+
+
+  #livraison #livraison_telephone {
+    text-align: right;
+    white-space: pre-line; 
+    margin-top: 20px;
+    font-size: 14px;
+    transform: translateX(-30px);
+  }
+  
+  
+  #livraison img {
+    text-align: center;
+     margin: auto;
+     margin-bottom: 20px;
+     
+  }
+
+  #camion {
+
+    width: 70%;
+    height: auto;
+    padding-left: 30px;
+  }
+  
+  
+  #tel {
+  
+    transform: translateX(20px);
+    width: 40%;
+    height: auto;
+    
+  }
+  
+  
+  
+  
+  #livraison #avis {
+  
+    width: 70%;
+    height: auto;
+    transform: translateY(-80px);
+    
+  }
+
+
+  
+/*footer*/
+
+.vl {
+display: none;
+
+}
+
+
+footer {
+  
+  background-color: var(--grey);
+  height: 100px;
+ 
+ 
+  
+}
+
+footer li {
+  list-style-type: none;
+  font-size: 10px;
+  transform: translateY(20px);
+  
+ 
+}
+
+
+footer img {
+
+  width: 60%;
+  height: auto;
+  transform: translateY(-100px);
+
+  
+  
+  
+  }
 
 
 
