@@ -1,5 +1,6 @@
+/*Version réalisée en premier (no mobile first)*/
 
-@media (min-width : 1200px) {
+@media (min-width : 880px) {
 
 /*variables*/
 :root {
@@ -20,11 +21,16 @@ body {
 
 /*bandeau de recherche*/
 
-.container_nav {
 
-  width: 35%;
-  margin: 0 80px;
+
+.container_nav img {
+
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
 }
+
+
 
 nav {
   background-color: white;  
@@ -36,10 +42,10 @@ nav {
 
 nav .container_nav {
   display: flex;
-  justify-content: space-evenly; 
-  align-items: center;  
+  justify-content: flex-end; 
   height: 65px;
-  margin: 0 1180px;
+  margin-right: 20px;
+  
 }
 
 #search {
@@ -53,6 +59,7 @@ nav .container_nav {
   background: url(./icones/loupe.svg) no-repeat;
   background-size: 25px 24px;
   background-position: 10px 7px;
+  margin-top: 13px;
 }
 
 
@@ -184,19 +191,19 @@ text-align: center;
 
   display: inline-block;
   list-style-type: none;
-  margin-right: 5px;
+  margin-right: -65px;
   flex-wrap: nowrap;
 
 }
 
 div #icones_gche {
-  margin: auto;
+  margin-left: -120px;
   transform: translateY(100px);
 }
 
 #icones_gche img {
 
-  width: 90%;
+  width: 65%;
   height: auto;
   text-align: center;
  
@@ -204,19 +211,16 @@ div #icones_gche {
 
 #baselines_gche li {
 
-  display: inline-block;
+  display: inline-flex;
   list-style-type: none;
   transform: translateY(150px);
-  padding-right: 100px;
   font-size: 22px;
-  color:rgb(79, 79, 79)
+  color:rgb(79, 79, 79);
+  margin-right: 30px;
   
 }
 
-#baselines_gche {
 
-  margin-left: 105px;
-}
 
 
 
@@ -346,11 +350,17 @@ footer {
   
 }
 
+
+footer ul:nth-child(1) {
+
+  margin-left: 30px;
+}
+
+
 footer li {
   list-style-type: none;
   font-size: 12px;
   line-height: 5px;
-  margin-left: 10px;
   margin-right: 20px;
   margin-top: 28px;
   width: 250px;
@@ -367,18 +377,17 @@ footer li {
 
 footer img {
 
-width: 150%;
-height: auto;
+width: 350%;
 margin-top: 30px;
-margin-left: 100px;
+margin-left: 150px;
 margin-right: -250px;
 
 
 }
 
 footer div {
-width: 150px;
-margin-left: 60px;
+width: 80px;
+
 
 }
 
