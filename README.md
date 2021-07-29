@@ -20,7 +20,7 @@ Integration of a landing page, designed by an other team : craft tools for woman
 
 -The crafter -
 
-Desktop (1200px) and smartphone (iphone 6/7/8 IOS 11).
+Desktop (1200px) and smartphone (iphone 6/7/8 IOS 11) views.
 
 Challenge about photos gallery on desktop and smartphone : no javascript - only html and css with "target" function + smooth scroll (= avoid anchor effect).
 
