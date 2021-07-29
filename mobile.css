@@ -238,31 +238,19 @@
     top: 750px;
     z-index: 100;
     overflow: hidden;
-    
+    padding: 0 50px;
         
    }
 
    #fixed img {
-
-    margin: auto;
+    
+    margin-right: 20px;
+    width: 15%;
    
    }
 
 
-   #fixed img:nth-child(1) {
-    margin-left: 20px;
-   } 
-
-   #fixed img:nth-child(3) {
-    transform: translateY(10px);
-   } 
-
-
-   #fixed img:nth-child(5) {
-    transform: translateY(4px);
-   } 
-
-   
+      
   
   /*section 2 avec gallery*/
 
@@ -393,8 +381,7 @@ footer {
   
   background-color: var(--grey);
   height: 250px;
- 
- 
+  display: flex; 
   
 }
 
@@ -402,7 +389,7 @@ footer li {
     
   list-style-type: none;
   font-size: 10px;
-  transform: translateY(20px);
+ 
   
  
 }
@@ -410,17 +397,19 @@ footer li {
 
 footer img {
 
-  width: 60%;
+  width: 400%;
   height: auto;
-  transform: translateY(-150px);
-  transform: translateX(50px);
-
+  margin-left: -230px;
+  margin-top: 20px;
+  
   }
 
   
 footer ul {
-  padding-left: 10px;
-  gap: 20px;
+  width: 110px;
+  margin-top: 100px;
+  padding-left: 20px;
+  transform: translateX(15px);
 }
 
 
