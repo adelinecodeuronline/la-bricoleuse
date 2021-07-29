@@ -1,3 +1,6 @@
+
+@media (min-width : 1200px) {
+
 /*variables*/
 :root {
 --caps: uppercase;
@@ -381,4 +384,4 @@ margin-left: 60px;
 
 
 
-
+}
