@@ -12,6 +12,7 @@
 
     html {
       scroll-behavior: smooth;
+      width: auto;
     }
     
     
@@ -20,6 +21,7 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 14 px;
       margin: 0;
+     
     }
 
 
@@ -179,14 +181,14 @@
 
                #icones_gche img {
 
-                width: 36%;
+                width: 60%;
                 height: auto;
                 text-align: right;             
               }
 
 
               div #icones_gche {
-                transform: translateX(130px);
+                margin-left: 250px;
                 margin-top: 80px;
               }
 
@@ -229,23 +231,21 @@
             
    #fixed {
 
-    display: block;
+    display: flex;
     height: 72px;
     background-color: var(--grey);
     position: fixed;
-    top: 800px;
+    top: 750px;
     z-index: 100;
     overflow: hidden;
-    width: 100%;
     
         
    }
 
    #fixed img {
 
-    display: inline-block;
     margin: auto;
-    padding-right: 30px;
+   
    }
 
 

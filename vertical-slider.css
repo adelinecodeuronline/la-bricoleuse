@@ -97,8 +97,10 @@ padding: 0;
 
     html {
     scroll-behavior: smooth;
-    overflow-anchor: none;
+    
 }
+
+
 
 
     .line_gallery {
