@@ -377,7 +377,8 @@ footer li {
 
 footer img {
 
-width: 350%;
+width: 150px;
+height: auto;
 margin-top: 30px;
 margin-left: 150px;
 margin-right: -250px;
