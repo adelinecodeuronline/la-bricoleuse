@@ -1,396 +1,104 @@
-/*Version réalisée en premier (no mobile first)*/
-
-@media (min-width : 880px) {
-
-/*variables*/
-:root {
---caps: uppercase;
---grey:  #EFEFEF;
---brown: color: #301919;
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
 }
 
 
-
-body {
-
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 16 px;
-  margin: 0;
+.container{
+    background-color:#FFFFFF ;
+    margin:auto;
 }
 
-
-/*bandeau de recherche*/
-
-
-
-.container_nav img {
-
-  width: 30px;
-  height: auto;
-  margin-left: 10px;
+.container img{
 }
 
-
-
-nav {
-  background-color: white;  
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-}
-
-nav .container_nav {
-  display: flex;
-  justify-content: flex-end; 
-  height: 65px;
-  margin-right: 20px;
-  
-}
-
-#search {
-
-  width: 356px;
-  height: 39px;
-  text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background: url(./icones/loupe.svg) no-repeat;
-  background-size: 25px 24px;
-  background-position: 10px 7px;
-  margin-top: 13px;
-}
-
-
-.burger {
-display: none;
-
-}
-
-
-/*header*/
-
-header {
-background-color: var(--grey);
-height: 297px;
-/*box-shadow: 0px 1px 3px rgb(180, 180, 180);*/
-
-}
-
-
-header img {
-  width: 550px;
-  height: auto;
-  margin-top: -58px;
- }
-
-
- .centrage_image {
- 
- text-align: center;
-
-}
-
-header ul {
-
-  list-style-type: none;
-  margin-top: 40px;
-  text-align: center;
-
-  
-}
-
-header li a {
-   
-  text-decoration: none;
-  font-size: 16px;
-  color: rgb(19, 18, 18);
-  margin: 40px;
-  
-}
-
-header li {
-  display: inline;
-  text-transform: var(--caps);
-}
-
- 
-/*première section*/
-
-
-.container_main section {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  height: 650px;
-  width: auto;
-}
-
-#perceusegauche {
-width: 500px;
-height: auto;
-margin-top: 50px;
-margin-left: 130px;
-
-}
-
-
-
-.btn {
-
-color: var(--white);
-text-transform: var(--caps);
-text-decoration: none;
-font-weight: 600;
-background-color:  #E16F52;
-padding: 10px 45px;
-border-radius: 70px;
-box-shadow: 6px 5px 5px rgb(202, 202, 202);
-margin-top: 60px;
-
-}
-
-
-#section1_gche h4 {
-  
-  margin-bottom: 40px;
-  font-size:24px;
-}
-
-#section1_gche h3 {
-  
-  font-size:24px;
-}
-
-
-#section1_gche h2 {
-
-  margin-top: -120px;
-  font-size: 36px;
-  font-weight: 200;
-}
-
-#section1 div {
-
-  margin:auto;
-  text-transform: var(--caps);
-
-}
-
-#section1_gche {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-
-}
-
-
- #icones_gche li {
-
-  display: inline-block;
-  list-style-type: none;
-  margin-right: -65px;
-  flex-wrap: nowrap;
-
-}
-
-div #icones_gche {
-  margin-left: -120px;
-  transform: translateY(100px);
-}
-
-#icones_gche img {
-
-  width: 65%;
-  height: auto;
-  text-align: center;
- 
-}
-
-#baselines_gche li {
-
-  display: inline-flex;
-  list-style-type: none;
-  transform: translateY(150px);
-  font-size: 22px;
-  color:rgb(79, 79, 79);
-  margin-right: 30px;
-  
+.logo{
+    background:#EFEFEF;
+    text-align: center;
+    
 }
 
 
 
 
-
-
-
-/*bandeaux gris*/
-
-.grey {
-
-  background-color: var(--grey);
-  height: 97px
+.logo ul  {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
 }
 
-/*2ème section-gallery*/
-
-#gallery {
-
-  height: 1100px;
-  display: flex;
-  flex-direction: column;
- 
+.logo ul a{
+    text-decoration:none;
+    color:#000000;
+    
+    
 }
 
 
 
-.btn2 {
-
-  color: var(--white);
-  text-transform: var(--caps);
-  text-decoration: none;
-  font-weight: 600;
-  background-color:  #E16F52;
-  padding: 10px 45px;
-  border-radius: 70px;
-  box-shadow: 6px 5px 5px rgb(202, 202, 202);
- 
-  
-  }
-
-#bouton2 {
-
-  transform: translateY(-50px);
-  
-}
-
-
-#avis {
-
-  margin-left: 90px;
-  transform: translateY(16px);
-}
-
-
-/*troisième section livraison*/
-
-#bandeau_mobile {
-
-  display: none;
-}
-
-
-#livraison {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 527px;
-  /*box-shadow: 0px 1px 3px rgb(180, 180, 180);*/
-}
-
-
-#livraison p {
-  text-align: center;
-  white-space: pre-wrap;
-  margin-top: 20px;
-  font-size: 22px;
- 
-}
-
-
-#livraison img {
-  text-align: center;
-   margin: auto;
-   margin-bottom: 20px;
-}
-
-
-#tel {
-
-  transform: translateX(50px);
+.logo img {
+    width:350px;
 }
 
 
 
+.avis {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+}
 
-#livraison #avis {
+.avis h2 {
+    width:60%;
+    margin:auto;
+    font-size: 20px;
 
-  width: 80%;
-  height: auto;
-  margin-bottom: 100px;
+}
+
+.avis img {
+    padding-bottom: 20px;
+}
+
+ .fin{
+     background-color:#EFEFEF ;
+     display: flex; 
+     justify-content: space-between;
+     text-align: center;
+     border-top:1px solid #cdcdcd;
+     font-size: 15px;
+     left:1px solid grey;
+    padding: 30px 0 ;
+    margin: 0px;
+    
+    }
+
+.fin ul {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+}
+
+/* Applique le style CSS sur toutes les DIV sauf la première et la dernière */
+.fin div:not(:nth-child(1)):not(:nth-child(4)) {
+    border-left:1px solid grey;
+}
+
+.fin li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+    height:20px;
+    text-align:left;
+
+    
+} 
+
+.imagbas  {
+                margin-top:20px;
+                margin-left: -80px;
+               margin-right:6em;
+               
 }
 
 
 
-
-/*footer*/
-
-
-#fixed { /*menu sur smartphone*/
-
-  display: none;
-}
-
-
-#fixed img {
-
-  display: none;
-}
-
-
-footer {
-  display: flex;
-  align-items: left;
-  background-color: var(--grey);
-  height: 250px;
- 
- 
-  
-}
-
-
-footer ul:nth-child(1) {
-
-  margin-left: 30px;
-}
-
-
-footer li {
-  list-style-type: none;
-  font-size: 12px;
-  line-height: 5px;
-  margin-right: 20px;
-  margin-top: 28px;
-  width: 250px;
-}
-
-.vl {
-
-  border-left: 1px solid rgb(168, 168, 168);
-  height: 120px;
-  margin-top: 50px;
-  margin-left: 150px;
-}
-
-
-footer img {
-
-width: 350%;
-margin-top: 30px;
-margin-left: 150px;
-margin-right: -250px;
-
-
-}
-
-footer div {
-width: 80px;
-
-
-}
-
-
-
-}
